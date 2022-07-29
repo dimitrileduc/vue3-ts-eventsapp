@@ -30,7 +30,7 @@ export default defineComponent({
   name: 'EventList',
   props: {
     page: {
-      type: Number as PropType<number>,
+      type: Number,
       required: true
     }
   }, // <---- receive the param as a prop, the current page

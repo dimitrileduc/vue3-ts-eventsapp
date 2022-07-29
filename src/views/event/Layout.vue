@@ -25,7 +25,7 @@ import EventService from '../../services/EventService'
 export default defineComponent({
   props: {
     id: {
-      type: String as PropType<string>,
+      type: String,
       required: true
     }
   },
